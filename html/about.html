@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Me</title>
+	<meta name="viewport" content="width=device-width" initial-scale="1">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+	<section>
+		<div class="left-side-nav">  <!--opening div for left-side nav-->
+			<nav class="header">
+			<div>
+			<button class="hamburger-button"><i class="fas fa-bars"></i></button>
+			</div>
+			</nav>
+			<nav class="right-header"> 
+			<div>
+			<h2 class="left-side-nav-title">Tawakalitu's Blog</h2><br>
+			</div>
+			</nav> 
+			<nav class="navbar-items">
+			<div>
+			<img src="../images/Tawakalitu Balogun.jpg" style="width: 200px; border-radius:50%";>
+			</div>
+			<div>
+			<p class="left-side-nav-intro">Hi, my name is Tawakalitu Balogun. I am a tech newbie, and have been coding only for weeks. Though a graduate of Economics, I wish to transitionn fully into the tech space, and leave a mark.<br>
+			<a href="./about.html" class="more" target="_blank" rel="noopener noreferrer">Find out more about me.</a></p>
+			</div>
+			<!--icons-->
+			<span class="fa-stack fa-lg">
+				<i class="fas fa-circle fa-stack-2x"></i>
+				<a href="https://facebook.com/balogun.tawa/" target="_blank"><i class="fab fa-facebook-f fa-stack"></i></a>
+				</span>
+				<span class="fa-stack fa-lg">
+				<i class="fas fa-circle fa-stack-2x"></i>
+				<a href="https://twitter.com/MsMoboluwaduro" target="_blank"><i class="fab fa-twitter fa-stack"></i></a>
+				</span>
+				<span class="fa-stack fa-lg">
+				<i class="fas fa-circle fa-stack-2x"></i>
+				<a href="https://linkedin.com/in/tawakalitu-balogun/" target="_blank"><i class="fab fa-linkedin-in fa-stack"></i></a>
+			<br>
+		</span>
+		
+		<hr style="border: 1px thin black;">
+		<br>
+		
+		<!--<div class="navbar">
+			<a class="active" href="index.html"><i class="fa fa-fw fa-home"></i>Blog Home</a><br>
+			<a href="./blog.html" target="_blank"><i class="fa fa-fw fa-bookmark"></i> Blog Post</a><br>
+			<a href="./about.html" target="_blank"><i class="fa fa-fw fa-user"></i> About Me</a>
+		  </div>-->
+		  
+			<!--page links-->
+			<div>
+			<ul class="fa-ul" style="padding: 0%;">
+				<li><span class="fa-li"><i class="fas fa-home"></i></span> <a href="index.html" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: white;"> Blog Home</a></li>
+				<li><span class="fa-li"><i class="fas fa-bookmark"></i></span> <a href="./blog.html" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: white;"> Blog Post</a></li>
+				<li><span class="fa-li"><i class="fas fa-user-alt"></i></span> <a href="./about.html" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: white;"> About Me</a></li>
+			</ul>
+		</div>
+		<br>
+		<div>
+		<button>Get In Touch</button>
+		</div>
+		</nav>
+		</div> <!--closing div for left-side nav -->
+		
+		<div class="blog-main-content"> <!--overall div-->
+		<ul class="about-me-ul">
+		<li>
+			<div class="about-me-intro">
+			<h2 style="font-weight: 700;">About Me</h2><br>
+		</div>
+		</li>
+		<li>
+			<div class="more">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa est praesentium fugiat, eveniet vero facere quasi placeat ex aliquid provident ducimus alias consectetur vitae, adipisci reiciendis quis tempore cupiditate eos.</p>
+		</div>
+		</li>
+			<br>
+			<li>
+		<div>
+					<img src="https://images.unsplash.com/photo-1573496529574-be85d6a60704?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="image of a man" alt="image of a man">
+		</div>
+		</li>
+			<br>
+			<li>
+				<div>
+				<h3 style="font-weight: bold;">About The Blog</h3><br>
+			</div>
+			</li>
+			<li>
+		<div>
+				<p class="blog-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt laudantium quia provident facilis est ipsum iusto facere non placeat! Et, asperiores cupiditate! Veniam voluptate consequuntur odio debitis corporis minima autem magnam est amet optio iusto, sint, similique impedit culpa doloremque cum! Minus, repudiandae? Minima, placeat qui nesciunt iusto harum, aperiam velit voluptate ipsum expedita sapiente vitae perspiciatis obcaecati, iure dolorem eum maxime non dignissimos impedit quod tempora facilis. Aperiam impedit minus facilis nemo voluptatem esse non illum sit inventore facere harum, enim repellat cupiditate distinctio fuga optio nobis quos accusamus minima explicabo ducimus! Quis at non pariatur suscipit in.</p>
+			</div>
+		</li>
+		</ul>
+		</div> <!--overall div-->
+		
+		
+		</section>
+
+
+<script>
+	function classToggle() {
+		const navs = document.querySelectorAll('.navbar-items')
+		
+		navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+	  }
+	  
+	  document.querySelector('.hamburger-button')
+		.addEventListener('click', classToggle);
+</script>
+
+<script src="./js/all.js"></script>
+</body>
+</html>
